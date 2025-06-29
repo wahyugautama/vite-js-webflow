@@ -1,6 +1,9 @@
 import './styles/style.css'
 
 import * as THREE from 'three'
+
+console.log('Hello Three.js!')
+
 const canvas = document.querySelector('canvas.webgl')
 const scene = new THREE.Scene()
 const camera = new THREE.PerspectiveCamera(
